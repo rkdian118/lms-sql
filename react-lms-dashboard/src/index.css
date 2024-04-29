@@ -1,0 +1,68 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  /* Display number input as a regular text input */
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+.rs-picker-toggle-textbox {
+  background-color: #fff;
+  /* background-color: var(--rs-input-bg); */
+  border: 1px solid #2196f3 !important;
+  /* border-radius: 10px !important; */
+  color: #121926 !important;
+  color: var(--rs-text-primary);
+  height: 100%;
+  left: 0;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 32px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* .apexcharts-tooltip {
+  top: 10px !important;
+} */
+
+/* .apexcharts-tooltip {
+  bottom: 100%;
+} */
+
+span.react-read-more-read-less.react-read-more-read-less-more {
+  color: #217ce2;
+}
+
+span.react-read-more-read-less.react-read-more-read-less-less {
+  color: #217ce2;
+}
+
+.rs-picker-menu {
+  background-color: #fff;
+  /* Fallback color */
+  background-color: var(--rs-bg-overlay);
+  border-radius: 6px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12), 0 0 10px rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: var(--rs-shadow-overlay);
+  box-shadow: var(--rs-shadow-overlay);
+  flex-direction: column;
+  overflow: hidden;
+  text-align: left;
+  transition: none;
+  z-index: 9999 !important;
+  /* Set a high z-index value */
+}

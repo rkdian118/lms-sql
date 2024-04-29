@@ -1,0 +1,2 @@
+__v,_id,createdAt,email,is_verified,mobile_number,name,password,profile_pic,role,status,updatedAt
+0,64b901da6197c02ef1a6b2ad,2023-07-20T09:43:54.942Z,supplier@mailinator.com,true,012345678,Supplier one,$2a$10$SjTHnXcYhleO8EdChDdcB.aBmsZJOnuSMsqcjBABWOs7tUcGcW/oa,Uploads/user/11.jpeg,Supplier,1,2023-07-20T10:46:12.505Z
